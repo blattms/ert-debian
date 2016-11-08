@@ -3,7 +3,7 @@ Priority: extra
 Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
 Build-Depends: debhelper (>= 8.0.0), cmake, liblapack-dev, libquadmath0,
                iputils-ping, zlib1g-dev, git, python-dev, python-numpy
-Standards-Version: 3.9.2
+Standards-Version: 3.9.6
 Section: libs
 Homepage: http://ert.nr.no
 Vcs-Git: git://github.com/Ensembles/ert.git
