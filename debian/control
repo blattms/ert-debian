@@ -25,19 +25,19 @@ Description: The Ensemble based Reservoir Tool
  ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
  of reservoir models.
 
-Package: python-ert.ecl
-Section: python
-Architecture: any
-Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, libert.ecl1
-Build-Depends: ${python:Depends}
-Description: The Ensemble based Reservoir Tool - Python bindings
- ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
- of reservoir models.
-
-Package: python-cwrap
-Section: python
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
-Build-Depends: ${python:Depends}
-Description: Package to simplify ctypes based wrapping of C code.
- Package to simplify ctypes based wrapping of C code.
+#Package: python-ert.ecl
+#Section: python
+#Architecture: any
+#Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, libert.ecl1
+#Build-Depends: ${python:Depends}
+#Description: The Ensemble based Reservoir Tool - Python bindings
+# ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
+# of reservoir models.
+#
+#Package: python-cwrap
+#Section: python
+#Architecture: any
+#Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+#Build-Depends: ${python:Depends}
+#Description: Package to simplify ctypes based wrapping of C code.
+# Package to simplify ctypes based wrapping of C code.
