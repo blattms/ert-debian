@@ -13,7 +13,7 @@ Package: libert.ecl-dev
 Section: libdevel
 Architecture: any
 Depends: libert.ecl1 (= ${binary:Version})
-Description: The Ensemble based Reservoir Tool -- Development files
+Description: Ensemble based Reservoir Tool -- Development files
  ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
  of reservoir models.
 
@@ -21,7 +21,7 @@ Package: libert.ecl1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: The Ensemble based Reservoir Tool
+Description: Ensemble based Reservoir Tool
  ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
  of reservoir models.
 
@@ -30,7 +30,7 @@ Description: The Ensemble based Reservoir Tool
 #Architecture: any
 #Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, libert.ecl1
 #Build-Depends: ${python:Depends}
-#Description: The Ensemble based Reservoir Tool - Python bindings
+#Description: Ensemble based Reservoir Tool - Python bindings
 # ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
 # of reservoir models.
 #
