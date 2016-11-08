@@ -12,7 +12,7 @@ Vcs-Browser: https://github.com/Ensembles/ert
 Package: libert.ecl-dev
 Section: libdevel
 Architecture: any
-Depends: libert.ecl1 (= ${binary:Version})
+Depends: ${misc:Depends}, libert.ecl1 (= ${binary:Version})
 Description: Ensemble based Reservoir Tool -- Development files
  ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
  of reservoir models.
