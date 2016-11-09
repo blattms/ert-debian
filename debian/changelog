@@ -1,3 +1,19 @@
+ert.ecl (2016.10-2~1.gbp32b19b) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @32b19bc30f84f0eaf57f6b9ed0d9122df6335946 **
+
+  * Get rid off lintian warning description-synopsis-starts-with-article
+  * Use flags recommended by dpkg-buildflags for building
+  * Allow for user provided CMAKE_C_FLAGS on linux
+  * Use 3.9.6 standard.
+  * Prevent lintian's hardening-no-relro for summary binary
+  * libert.ecl-dev need to depend on ${misc:Depends}
+  * Added manpage for ecl_summary as requested by Debian policy.
+  * Install new manpage of ecl_summary
+  * Switched to 3.0 (quilt) format.
+
+ -- Markus Blatt <markus@dr-blatt.de>  Wed, 09 Nov 2016 16:03:08 +0100
+
 ert.ecl (2016.10-rfinal-1~xenial) xenial; urgency=medium
 
   * New release
@@ -21,3 +37,4 @@ ert.ecl (1.0-1) unstable; urgency=low
   * Initial release
 
  -- Arne Morten Kvarving <arne.morten.kvarving@sintef.no>  Wed, 16 Jan 2013 11:21:17 +0100
+
