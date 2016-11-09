@@ -3,41 +3,9 @@ Date: Tue, 8 Nov 2016 16:37:40 +0100
 Subject: Added dependency on python support
 
 ---
- debian/changelog | 26 +++-----------------------
- debian/control   |  6 ++++--
- 2 files changed, 7 insertions(+), 25 deletions(-)
+ debian/control | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
 
-diff --git a/debian/changelog b/debian/changelog
-index 1924ff3..60519e7 100644
---- a/debian/changelog
-+++ b/debian/changelog
-@@ -1,23 +1,3 @@
--ert.ecl (2016.10-rfinal-1~xenial) xenial; urgency=medium
--
--  * New release
--
-- -- Arne Morten Kvarving <arne.morten.kvarving@sintef.no>  Wed, 26 Oct 2016 09:46:18 +0200
--
--ert.ecl (1.0-4) precise; urgency=low
--
--  * Unmark -dev package as architecture independent due to library symlink
--
-- -- Arne Morten Kvarving <arne.morten.kvarving@sintef.no>  Wed, 03 Apr 2013 17:49:24 +0200
--
--ert.ecl (1.0-2) precise; urgency=low
--
--  * Mark -dev package as architecture independent
--
-- -- Arne Morten Kvarving <arne.morten.kvarving@sintef.no>  Tue, 19 Feb 2013 10:03:04 +0100
--
--ert.ecl (1.0-1) unstable; urgency=low
--
--  * Initial release
--
-- -- Arne Morten Kvarving <arne.morten.kvarving@sintef.no>  Wed, 16 Jan 2013 11:21:17 +0100
-+ert.ecl (2016.10-1) UNRELEASED; urgency=low
-+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
-+ -- Markus Blatt <markus@dr-blatt.de>  Tue, 08 Nov 2016 15:08:50 +0200
 diff --git a/debian/control b/debian/control
 index 6537578..30944d9 100644
 --- a/debian/control
