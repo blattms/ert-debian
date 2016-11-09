@@ -1,0 +1,16 @@
+From: Markus Blatt <markus@dr-blatt.de>
+Date: Tue, 8 Nov 2016 22:14:11 +0100
+Subject: Install new manpage of ecl_summary
+
+---
+ debian/libert.ecl1.install | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/debian/libert.ecl1.install b/debian/libert.ecl1.install
+index 00c8fc1..fb57ef3 100644
+--- a/debian/libert.ecl1.install
++++ b/debian/libert.ecl1.install
+@@ -1,2 +1,3 @@
+ usr/lib/*/lib*.so.*
+ usr/bin/*
++usr/share/man/man1/ecl_summary.1

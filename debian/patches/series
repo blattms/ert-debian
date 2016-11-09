@@ -1,0 +1,10 @@
+0001-Added-dependency-on-python-support.patch
+0002-Do-not-build-python-package.patch
+0003-Get-rid-off-lintian-warning-description-synopsis-sta.patch
+0004-Use-flags-recommended-by-dpkg-buildflags-for-buildin.patch
+0005-Allow-for-user-provided-CMAKE_C_FLAGS-on-linux.patch
+0006-Use-3.9.6-standard.patch
+0007-Prevent-lintian-s-hardening-no-relro-for-summary-bin.patch
+0008-libert.ecl-dev-need-to-depend-on-misc-Depends.patch
+0009-Added-manpage-for-ecl_summary-as-requested-by-Debian.patch
+0010-Install-new-manpage-of-ecl_summary.patch

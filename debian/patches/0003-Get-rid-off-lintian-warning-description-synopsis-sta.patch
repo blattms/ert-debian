@@ -1,0 +1,39 @@
+From: Markus Blatt <markus@dr-blatt.de>
+Date: Tue, 8 Nov 2016 20:32:31 +0100
+Subject: Get rid off lintian warning description-synopsis-starts-with-article
+
+---
+ debian/control | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/debian/control b/debian/control
+index 3cc857c..3ee36e0 100644
+--- a/debian/control
++++ b/debian/control
+@@ -13,7 +13,7 @@ Package: libert.ecl-dev
+ Section: libdevel
+ Architecture: any
+ Depends: libert.ecl1 (= ${binary:Version})
+-Description: The Ensemble based Reservoir Tool -- Development files
++Description: Ensemble based Reservoir Tool -- Development files
+  ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
+  of reservoir models.
+ 
+@@ -21,7 +21,7 @@ Package: libert.ecl1
+ Section: libs
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}
+-Description: The Ensemble based Reservoir Tool
++Description: Ensemble based Reservoir Tool
+  ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
+  of reservoir models.
+ 
+@@ -30,7 +30,7 @@ Description: The Ensemble based Reservoir Tool
+ #Architecture: any
+ #Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, libert.ecl1
+ #Build-Depends: ${python:Depends}
+-#Description: The Ensemble based Reservoir Tool - Python bindings
++#Description: Ensemble based Reservoir Tool - Python bindings
+ # ERT - Ensemble based Reservoir Tool is a tool for managing en ensemble
+ # of reservoir models.
+ #

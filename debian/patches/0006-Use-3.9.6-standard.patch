@@ -1,0 +1,21 @@
+From: Markus Blatt <markus@dr-blatt.de>
+Date: Tue, 8 Nov 2016 21:32:38 +0100
+Subject: Use 3.9.6 standard.
+
+---
+ debian/control | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/debian/control b/debian/control
+index 3ee36e0..fa062ed 100644
+--- a/debian/control
++++ b/debian/control
+@@ -3,7 +3,7 @@ Priority: extra
+ Maintainer: Arne Morten Kvarving <arne.morten.kvarving@sintef.no>
+ Build-Depends: debhelper (>= 8.0.0), cmake, liblapack-dev, libquadmath0,
+                iputils-ping, zlib1g-dev, git, python-dev, python-numpy
+-Standards-Version: 3.9.2
++Standards-Version: 3.9.6
+ Section: libs
+ Homepage: http://ert.nr.no
+ Vcs-Git: git://github.com/Ensembles/ert.git
