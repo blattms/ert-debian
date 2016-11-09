@@ -1,7 +1,9 @@
-ert.ecl (2016.10-2~1.gbp32b19b) UNRELEASED; urgency=low
+ert.ecl (2016.10-2~1.gbp35d570) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @32b19bc30f84f0eaf57f6b9ed0d9122df6335946 **
+  ** SNAPSHOT build @35d570b6287d0fb201bf8cdcac8ee8af9db9492c **
 
+  * Added dependency on python support
+  * Do not build python package
   * Get rid off lintian warning description-synopsis-starts-with-article
   * Use flags recommended by dpkg-buildflags for building
   * Allow for user provided CMAKE_C_FLAGS on linux
@@ -12,7 +14,7 @@ ert.ecl (2016.10-2~1.gbp32b19b) UNRELEASED; urgency=low
   * Install new manpage of ecl_summary
   * Switched to 3.0 (quilt) format.
 
- -- Markus Blatt <markus@dr-blatt.de>  Wed, 09 Nov 2016 16:03:08 +0100
+ -- Markus Blatt <markus@dr-blatt.de>  Wed, 09 Nov 2016 16:23:31 +0100
 
 ert.ecl (2016.10-rfinal-1~xenial) xenial; urgency=medium
 
